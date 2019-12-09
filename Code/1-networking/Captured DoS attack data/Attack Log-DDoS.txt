@@ -1,0 +1,70 @@
+dos-1.pcap file time--- start at 14:49:20
+
+
+Local computer time
+================================================================
+dos-1.pcap
+
+
+2:52-2:53PM  			ping victim -- normal activitiy
+
+
+2:53-2:54PM  			Tcp SYN flooding
+
+
+2:54-2:55PM  			TCP SYN flooding with random source IP, different data size, and window size
+
+stop 2:56
+
+========================================
+dos-2.pcap
+
+
+start at 3:00PM
+3:16PM 			TCP FIN flooding
+
+3:17PM       		ping victim
+
+3:19PM 			TCP RST flooding
+
+=====================================================================
+dos-3.pcap
+
+3:21PM			TCP PSH+ACK flooding
+
+3:23PM			Udp flooding
+
+========================================================================
+dos-4.pcap
+
+3:24PM 			ICMP flooding
+
+================================================================
+dos-5.pcap
+
+3:39PM TCP SYN flooding with random source IP, different data size, and window size   120s flooding
+
+
+3:41-42PM  Ping victim
+
+
+3:43PM TCP SYN flooding   120S flooding
+stop due to software abort
+
+=====================================================
+dos-6.pcap
+
+9:47PM ping victim
+
+9:49PM TCP RST+PSH+ACK flooding
+
+stop around 9:52PM
+
+=======================================================
+
+dos-7.pcap
+
+10:05PM 			ICMP flooding
+
+
+End 10:09PM
